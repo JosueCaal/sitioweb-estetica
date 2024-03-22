@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    background-color: #211212;
+
+}
+/*header y nav*/
+.header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    padding: 12px 40px;
+    background-color:211212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid;
+    border-color: #FFFFFF;
+}
+.contenedorLogo{
+    /*background-color: yellow;*/
+    width: 293px;
+    height: 22.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.imgLogo{
+    background-color: red;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+
+}
+
+.textLogo{
+    /*background-color: violet;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #FFFFFF;
+
+}
+.navbar{
+    /*background-color: greenyellow;*/
+    width: 907;
+    height: 40;
+}
+.navbar a{
+    /*background-color: blue;*/
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    gap: 25px;
+    margin-right: 30px;
+}
+/*main cuerpo*/
+main{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    position: relative;
+    /* background-color: yellow; */
+    width: 960px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px;
+}
+.info-servicios{
+    /* background-color: red; */
+    height: 87px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    color: #FFFFFF;
+    font-size: 22px;
+    /* border: solid; */
+    margin-bottom: 14px;
+}
+.lista-servicios{
+    border-top: solid;
+
+}
+.encabezado-lista-servicios{
+    /* background-color: violet; */
+    text-align: center;
+}
+.encabezado-lista-servicios h2{
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.lista-servicios li{
+    list-style: none;
+    /* background-color: gray; */
+    /* border: solid; */
+    height: 56px;
+    width: 100%;
+    margin-right: 16px;
+    display: block;
+    margin-bottom: 16px;
+}
+/*Banner principal*/
+.banner{
+    width: 928px;
+    height: 218px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ), url(/imagenes/banner2-servicios.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* padding: 40px; */
+    border-radius: 10px;
+    position: relative;
+}
+.lista-servicios{
+   /* background-color: gold; */
+   border-top: 2px solid;
+   border-color: #FFFFFF;
+   padding-top: 10px;
+}
+.texto-servicios{
+    /* background-color: #FFFFFF; */
+    text-align: center;
+    /* padding-top: 0.25%; */
+    justify-content: center;
+    margin-right: 70%;
+    width: 20%;
+}
+.lista-servicios li{
+    list-style: none;
+    /* background-color: gray; */
+    /* border: solid; */
+    height: 56px;
+    width: 100%;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.lista-servicios h3{
+    /* background-color: violet; */
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 100;
+}
+.lista-servicios p{
+    /* background-color: aqua; */
+    display: block;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 100;
+}
+.icono-servicio{
+    text-decoration: none;
+    font-size: 28px;
+    width: 48px;
+    height: 48px;
+    /* line-height: 60px; */
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    color: #FFFFFF;
+    background-color: #452626;
+    border-radius: 20%;
+    /* margin: 15px; */
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.precio-servicios p{
+    /* background-color: green; */
+    display: flex;
+}
+.contenedor-button-servicio{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+}
+.buttoReserva-servicios{
+    top: 65%;
+    width: 480px;
+    height: 48px;
+    background-color: #E31C26;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.buttoReserva-servicios:hover{
+    transform: scale(1.1);
+}
+/*footer*/
+footer{
+    /* background-color: green; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/*contenedor de todo la info*/
+.infoFooter{
+    /* background-color: yellow; */
+    width: 960px;
+    height: 200px;
+}
+/*info de los botones para las redes sociales*/
+.redes{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    /* background-color: green; */
+    margin: 15px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.redes a:hover{
+    transform: scale(1.2);
+}
+
+/*info Copyright*/
+.inofCopyright{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.inofCopyright p{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}

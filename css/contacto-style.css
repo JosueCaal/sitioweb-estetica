@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    background-color: #211212;
+
+}
+/*header y nav*/
+.header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    padding: 12px 40px;
+    background-color:211212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid;
+    border-color: #FFFFFF;
+}
+.contenedorLogo{
+    /*background-color: yellow;*/
+    width: 293px;
+    height: 22.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.imgLogo{
+    background-color: red;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+
+}
+
+.textLogo{
+    /*background-color: violet;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #FFFFFF;
+
+}
+.navbar{
+    /*background-color: greenyellow;*/
+    width: 907;
+    height: 40;
+}
+.navbar a{
+    /*background-color: blue;*/
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    gap: 25px;
+    margin-right: 30px;
+}
+/*main cuerpo*/
+main{
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    position: relative;
+    /*background-color: yellow;*/
+    width: 960px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px;
+}
+/*Banner principal*/
+.banner{
+    width: 928px;
+    height: 480px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ), url(imagenes/gatito-banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.mapa{
+    /* background-color: red; */
+    display: block;
+    height: 380px;
+    width: 100%;
+    /* border-radius: 10%; */
+}
+.mapa-google{
+    border-radius: 5%;
+}
+.info-servicios-contacto{
+    margin-top: 16px;
+    /* background-color: green; */
+    
+}
+.lista-servicios-contacto{
+    list-style: none;
+    /* background-color: blue; */
+    display: flex;
+    vertical-align: top;
+    justify-content: space-evenly;
+    
+}
+.lista-servicios-contacto li{
+    width: 20%;
+    height: 20%;
+    /* border: solid; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-info-servicios{
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 12px;
+} 
+.lista-servicios-contacto img{
+    height: 15%;
+    width:  100%;
+    display: flex;
+    border-radius: 16px;
+}
+.lista-servicios-contacto h3{
+    text-align: start;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.contendero-form-servicio{
+    display: flex  ;
+    /* background-color: yellow; */
+    height: auto;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 16px;
+    padding-top: 12px;
+    
+}
+.formulario-contacto{
+    width: 200%;
+    height: auto;
+    /* background-color: aqua; */
+    display: inline-block;
+    margin-right: 20px;
+}
+.contendero-form-servicio input{
+    width: 85%;
+    font-size: 16px;
+    padding: 9px;
+    background-color: #db4848;
+    display: block;
+    margin: 10px 10px 10px 0;
+    /* border: solid; */
+    border-radius: 10px;
+}
+.contendero-form-servicio h2{
+    width: 100%;
+    /* background-color: green; */
+    display: block;
+    /* border: solid; */
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 12px;
+    
+}
+.contendero-form-servicio textarea{
+    background-color: #db4848;
+    display: block;
+    /* border: solid; */
+    width: 85%;
+    border-radius: 10px;
+    padding: 9px;
+}
+input::placeholder{
+    color: #FFFFFF;
+}
+textarea::placeholder{
+    color: #FFFFFF;
+}
+.contendero-form-servicio h3{
+    color: white;
+}
+
+.contendero-form-servicio img{
+    width: 80%;
+    display: inline-block;
+    border: solid;
+    border-radius: 50%;
+}
+.formulario-contacto button{
+    /* top: 65%; */
+    margin-top: 12px;
+    width: 35%;
+    height: 48px;
+    background-color: #E31C26;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+/*footer*/
+footer{
+    /* background-color: green; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/*contenedor de todo la info*/
+.infoFooter{
+    /* background-color: yellow; */
+    width: 960px;
+    height: 200px;
+}
+/*info de los botones para las redes sociales*/
+.redes{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    /* background-color: green; */
+    margin: 15px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.redes a:hover{
+    transform: scale(1.2);
+}
+
+/*info Copyright*/
+.inofCopyright{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.inofCopyright p{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}

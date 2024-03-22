@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    background-color: #211212;
+
+}
+/*header y nav*/
+.header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    padding: 12px 40px;
+    background-color:211212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid;
+    border-color: #FFFFFF;
+}
+.contenedorLogo{
+    /*background-color: yellow;*/
+    width: 293px;
+    height: 22.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.imgLogo{
+    /* background-color: red; */
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+
+}
+
+.textLogo{
+    /*background-color: violet;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #FFFFFF;
+
+}
+.navbar{
+    /*background-color: greenyellow;*/
+    width: 907;
+    height: 40;
+}
+.navbar a{
+    /*background-color: blue;*/
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    gap: 25px;
+    margin-right: 30px;
+}
+/*main cuerpo*/
+main{
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    position: relative;
+    /*background-color: yellow;*/
+    width: 960px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px;
+    /* background-color: #FFFFFF; */
+}
+/*Contenido*/
+.titulo-horario{
+    /* background-color: green; */
+    margin-bottom: 16px;
+}
+.titulo-horario h1{
+    color: #FFFFFF;
+}
+.titulo-horario h3{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+/*tabla*/
+.contenedor-info-horario{
+    /* background-color: red; */
+    margin-top: 50px;
+    /* border: solid #FFFFFF; */
+}
+.contenedor-info-horario{
+    width: 100%;
+    /* background-color: red; */
+}
+.contenedor-info-horario table{
+    color: #FFFFFF;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse:collapse ;
+    width: 100%;
+}
+.contenedor-info-horario thead{
+    /* background-color: yellow ; */
+    /* border: solid ; */
+    width: 200%;
+    display: block;
+    justify-content: center;
+
+}
+.contenedor-info-horario th{
+    /* background-color: gray; */
+    padding-bottom:16px ;
+    font-size: 16px;
+}
+
+.contenedor-info-horario td{
+    padding: 16px;
+    /* border-top: solid 1px #FFFFFF; */
+    /* width: 100%; */
+    /* background-color: yellow; */
+}   
+
+.info-tabla{
+    /* background-color: blue;
+    width: 50%; */
+    padding: 16px;
+    border-top: solid 1px #FFFFFF;
+}
+
+/*footer*/
+footer{
+    /* background-color: green; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/*contenedor de todo la info*/
+.infoFooter{
+    /* background-color: yellow; */
+    width: 960px;
+    height: 200px;
+}
+/*info de los botones para las redes sociales*/
+.redes{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    /* background-color: green; */
+    margin: 15px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.redes a:hover{
+    transform: scale(1.2);
+}
+
+/*info Copyright*/
+.inofCopyright{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.inofCopyright p{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
