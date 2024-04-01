@@ -77,20 +77,6 @@ main{
     padding: 16px;
 }
 /*Banner principal*/
-.banner{
-    width: 928px;
-    height: 480px;
-    background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-
-    ), url(imagenes/gatito-banner.jpeg);
-    background-position: center;
-    background-size: cover;
-    padding: 40px;
-    border-radius: 10px;
-    position: relative;
-}
 .mapa{
     /* background-color: red; */
     display: block;
