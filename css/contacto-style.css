@@ -250,3 +250,27 @@ footer{
     color: #FFFFFF;
 
 }
+@media (max-width:800px){
+    .header{
+        padding: 0;
+    }
+
+    .contenedorLogo{
+        display: none;
+    }
+    .navbar{
+       
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a{
+
+        width: auto;
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}

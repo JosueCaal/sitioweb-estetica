@@ -232,10 +232,9 @@ footer{
 
 @media (max-width:800px){
     body{
-        /* background-color: green; */
         width: auto;
     }
-
+    /*responsive header*/
     .header{
         padding: 0;
     }
@@ -244,7 +243,7 @@ footer{
         display: none;
     }
     .navbar{
-        /* background-color: #E31C26; */
+       
         width: 100%;
         height: 100%;
         display: flex;
@@ -253,14 +252,14 @@ footer{
     .navbar a{
 
         width: auto;
-        /* background-color: aqua; */
         margin: auto;
         margin-top: 5%;
         margin-left: 10px;
         font-size: 14px;
     }
+    /*responsive principal o main*/
     .principal{
-        /* background-color: blue; */
+       
         width: 100%;
         height: auto;
 
@@ -295,13 +294,13 @@ footer{
     .servicos{
         width: 100%;
         height: auto;
-        /* background-color: yellow; */
+        
         display: inline-block;
         
         
     }
     .servicos li{
-        /* background-color: #E31C26; */
+        
         width: 100%;
         height: auto;
         margin-top: 5%;
@@ -310,7 +309,7 @@ footer{
         display: inline-block;
     }
     .servicos p{
-        /* background-color: gold; */
+       
         margin-top: 10px;
         text-align: justify;
         width: auto;
