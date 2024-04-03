@@ -273,4 +273,7 @@ footer{
         margin-left: 10px;
         font-size: 14px;
     }
+    .contendero-form-servicio img{
+        display: none;
+    }
 }
