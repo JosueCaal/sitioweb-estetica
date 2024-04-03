@@ -84,7 +84,7 @@ main{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
 
-    ), url(/imagenes/banner-acercade.jpeg);
+    ), url(imagenes/banner-acercade.jpeg);
     background-position: center;
     background-size: cover;
     padding: 40px;
