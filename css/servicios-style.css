@@ -263,7 +263,7 @@ footer{
 @media (max-width:800px){
     body{
         width: auto;
-        background-color: green;
+        /* background-color: green; */
         height: auto;
         padding: 5px;
     }
@@ -292,22 +292,33 @@ footer{
     /*main responsive*/
     .principal{
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
 
     }
     .banner{
        width: 100%; 
     }
     .info-servicios{
-        background-color: yellow;
+        /* background-color: yellow; */
         height: auto;
         font-size: 12px;
     }
-    .texto-servicios{
-        background-color: blue;
-    }
     .texto-servicios p{
-        display: none;
+        display: inline-block;
     }
-
+    .lista-servicios li{
+        /* background-color: aqua; */
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .texto-servicios{
+        text-align: center;
+        justify-content: center;
+        margin-right: 40%;
+        width: 30%;
+        height: auto;
+        /* background-color: #E31C26; */
+    }
+    
 }
