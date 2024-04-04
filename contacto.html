@@ -66,22 +66,40 @@
                 </ul>
             </div>
             <div class="contendero-form-servicio">
-                <form class="formulario-contacto" action="https://formsubmit.co/rasenshurikencc@gmail.com" method="POST">
+                <form class="formulario-contacto" id="form-contacto">
+
                     <h2>Contáctenos</h2>
                     <h3>Nombre</h3>
-                    <input type="text" placeholder="Ingresa tu nombre" name="nombre-cliente">
+                    <input 
+                    type="text" 
+                    id="name"
+                    name="cliente"
+                    placeholder="Ingresa tu nombre">
+
                     <h3>Nombre Mascota</h3>
-                    <input type="text" placeholder="Ingresa el nombre de la mascota" name="nombre-mascota">
-                    <h3>Correo Electronico</h3>
-                    <input type="text" placeholder="Ingresa tu correo electronico" name="correo-cliente">
+                    <input 
+                    type="text" 
+                    name="mascota"
+                    placeholder="Ingresa el nombre de la mascota">
+
+                    <h3>Número de Teléfono</h3>
+                    <input 
+                        type="text" 
+                        name="correo"
+                        placeholder="Ingresa tu correo electronico"
+                    >
+
                     <h3>Mensaje</h3>
-                    <textarea name="servicios-cliente" id="" cols="30" rows="10" placeholder="Describe los servicios que necesitas."></textarea>
+                    <textarea 
+                        id="message" 
+                        cols="30" 
+                        rows="3" 
+                        name="mensaje"
+                        placeholder="Describe los servicios que necesitas."></textarea>
 
                     <button type="submit" value="Enviar">
                         Enviar Mensaje
                     </button>
-                    <input type="hidden" name="_next" value="https://www.google.com/?hl=es">
-                    <input type="hidden" name="_captcha" value="false">
                 </form>
                 <div class="img-formulario-contacto">
                     <img src="/imagenes/banner-acercade.jpeg" alt="">
@@ -104,5 +122,6 @@
          </div>   
      </footer>
      <script src="https://kit.fontawesome.com/f1e04ade98.js" crossorigin="anonymous"></script>
+     <script src="email.js"></script>
 </body>
 </html>

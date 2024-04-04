@@ -276,4 +276,9 @@ footer{
     .contendero-form-servicio img{
         display: none;
     }
+
+    .lista-servicios-contacto h3{
+        /* color: aqua; */
+        font-size: 12px;
+    }
 }
